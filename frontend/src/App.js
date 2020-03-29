@@ -1,10 +1,11 @@
 import React from 'react';
+import Logon from './pages/Logon';
+import './global.css'
 
+// JSX - JavaScript XML
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+    <Logon />
   );
 }
 
